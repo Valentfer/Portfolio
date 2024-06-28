@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<script src="interacciones.js"></script>
+
+<header>
+    <h1>Bienvenido a Mi Portfolio</h1>
+    <nav>
+        <ul>
+            <li><a href="#tecnologias" class="button">Tecnologías</a></li>
+            <li><a href="#proyectos" class="button">Proyectos</a></li>
+            <li><a href="#contacto" class="button">Contacto</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <section id="acerca" class="section-move">
+        <h2>Acerca de mí</h2>
+        <img style="float: left; margin: 0px 15px 15px 0px;" src="media/foto.jpg" width="100" />
+        <p>Hola, soy Valentín 👋</p>
+        <p>Técnico Superior en Desarrollo de Aplicaciones Multiplataforma. Me apasiona el desarrollo de aplicaciones multiplataforma, seguridad, cloud, IoT... y es por esto por lo que siempre estoy en continuo aprendizaje.</p>
+    </section>
+    <section id="tecnologias">
+        <h2>Tecnologías</h2>
+        <div class="icon-container contenedor">
+            <a href="https://kotlinlang.org/" target="_blank">
+                <img src="icons/logos--kotlin-icon.svg" alt="Kotlin" class="ani1"/>
+            </a>
+            <a href="https://www.oracle.com/java/technologies/" target="_blank">
+                <img src="https://www.vectorlogo.zone/logos/java/java-icon.svg" alt="Java" class="ani3"/>
+            </a>
+            <a href="https://www.python.org/" target="_blank">
+                <img src="icons/logos--python.svg" alt="Python" class="ani2"/>
+            </a>
+            <a href="https://developer.apple.com/swift/" target="_blank">
+                <img src="icons/logos--swift.svg" alt="Swift" class="ani3"/>
+            </a>
+            <a href="https://isocpp.org/" target="_blank">
+                <img src="icons/logos--c-plusplus.svg" alt="C++" class="ani2"/>
+            </a>
+            <a href="https://cloud.google.com/" target="_blank">
+                <img src="icons/logos--google-cloud.svg" alt="Google Cloud" class="ani1"/>
+            </a>
+            <a href="https://www.jetbrains.com/idea/" target="_blank">
+                <img src="icons/logos--intellij-idea.svg" alt="IntelliJ IDEA" class="ani3"/>
+            </a>
+            <a href="https://code.visualstudio.com/" target="_blank">
+                <img src="icons/logos--visual-studio-code.svg" alt="Visual Studio Code" class="ani1"/>
+            </a>
+            <a href="https://visualstudio.microsoft.com/es/" target="_blank">
+                <img src="icons/logos--visual-studio.svg" alt="Visual Studio" class="ani3"/>
+            </a>
+            <a href="https://developer.android.com/studio" target="_blank">
+                <img src="icons/skill-icons--androidstudio-dark.svg" alt="Android Studio" class="ani2"/>
+            </a>
+            <a href="https://aws.amazon.com/" target="_blank">
+                <img src="icons/skill-icons--aws-light.svg" alt="AWS" class="ani2"/>
+            </a>
+            <a href="https://spring.io/projects/spring-framework" target="_blank">
+                <img src="icons/skill-icons--spring-dark.svg" alt="Spring Framework" class="ani3"/>
+            </a>
+            <a href="https://www.sqlite.org/index.html" target="_blank">
+                <img src="icons/skill-icons--sqlite.svg" alt="SQLite" class="ani1"/>
+            </a>
+            <a href="https://azure.microsoft.com/en-us/" target="_blank">
+                <img src="icons/vscode-icons--file-type-azure.svg" alt="Azure" class="ani3"/>
+            </a>
+            <a href="https://unity.com/" target="_blank">
+                <img src="icons/bxl--unity.svg" alt="Unity" class="ani2"/>
+            </a>
+            <a href="https://www.jetbrains.com/clion/" target="_blank">
+                <img src="icons/devicon--clion.svg" alt="CLion" class="ani1"/>
+            </a>
+            <a href="https://dotnet.microsoft.com/apps/dotnet/csharp" target="_blank">
+                <img src="icons/devicon--csharp.svg" alt="C#" class="ani3"/>
+            </a>
+            <a href="https://firebase.google.com/" target="_blank">
+                <img src="icons/devicon--firebase.svg" alt="Firebase" class="ani1"/>
+            </a>
+            <a href="https://hibernate.org/" target="_blank">
+                <img src="icons/devicon--hibernate-wordmark.svg" alt="Hibernate" class="ani2"/>
+            </a>
+            <a href="https://dev.mysql.com/" target="_blank">
+                <img src="icons/devicon--mysql-wordmark.svg" alt="MySQL" class="ani3"/>
+            </a>
+            <a href="https://www.jetbrains.com/phpstorm/" target="_blank">
+                <img src="icons/devicon--phpstorm.svg" alt="PHPStorm" class="ani2"/>
+            </a>
+            <a href="https://www.postgresql.org/" target="_blank">
+                <img src="icons/devicon--postgresql-wordmark.svg" alt="PostgreSQL" class="ani1"/>
+            </a>
+            <a href="https://www.jetbrains.com/pycharm/" target="_blank">
+                <img src="icons/devicon--pycharm.svg" alt="PyCharm" class="ani2"/>
+            </a>
+            <a href="https://developer.apple.com/xcode/" target="_blank">
+                <img src="icons/devicon--xcode.svg" alt="Xcode" class="ani3"/>
+            </a>
+            <a href="https://www.cplusplus.com/doc/tutorial/introduction/" target="_blank">
+                <img src="icons/logos--c-plusplus.svg" alt="C++" class="ani1"/>
+            </a>
+        </div>
+    </section>
+    <section id="proyectos" class="section-move">
+        <h2>Proyectos</h2>
+        <div class="centered-section">
+            <ul>
+                <div class="proyecto-tarjeta">
+                    <a href="https://github.com/Valentfer/AhoraSiAhoraNo" class="button">Ahora sí, Ahora No.</a>
+                    <p>Aplicación que te ayuda a conocer los límites de tu parcela. En relación con los límites establecidos en el registro catastral.</p><br>
+                    <figure>
+                        <img src="media/kot1.jpg" alt="Miniatura del Proyecto" class="img1">
+                        <img src="media/kot2.jpg" alt="Miniatura del Proyecto" class="img1">
+                        <img src="media/kot3.jpg" alt="Miniatura del Proyecto" class="img1">
+                        <img src="media/kot4.jpg" alt="Miniatura del Proyecto" class="img1">
+                    </figure>
+                </div>
+
+                <div class="proyecto-tarjeta">
+                    <a href="https://github.com/Valentfer/AgendaSwift" class="button">AgendaSwift</a>
+                    <p>Aplicación iOS desarrollada en Swift que permite gestionar una agenda de alumnos con una base de datos Core Data.</p><br>
+                    <figure>
+                        <img src="media/swift1.jpg" alt="Miniatura del Proyecto" class="img1">
+                        <img src="media/swift2.jpg" alt="Miniatura del Proyecto" class="img1">
+                        <img src="media/swift3.jpg" alt="Miniatura del Proyecto" class="img1">
+                    </figure>
+                </div>
+
+                <div class="proyecto-tarjeta">
+                    <a href="https://github.com/Valentfer/securesp32" class="button">securesp32</a>
+                    <p>Mecanismo de seguridad con ESP32, un teclado y una pantalla LCD. El sistema permite al usuario ingresar una contraseña y, si es correcta, muestra un mensaje de bienvenida. Si la contraseña es incorrecta, muestra un mensaje de error y decrementa el número de intentos restantes</p><br>
+                    <figure>
+                    <video src="media/a" controls></video>
+                    </figure>
+                </div>
+
+                <div class="proyecto-tarjeta">
+                    <a href="https://github.com/Valentfer/ProyecInter" class="button">GestiApp</a>
+                    <p>Pequeña aplicación de escritorio desarrollada en C# con Visual Studio.<br>Características:<br>
+                    <ul>
+                        <li>Sistema de inicio de sesión</li>
+                        <li>Conexión a una base de datos MySQL</li>
+                        <li>Control de stock de pedidos</li>
+                        <li>Gestión de empleados</li>
+                        <li>Generación de facturas</li>
+                    </ul></p>
+                    <img src="media/gest1.jpg" alt="Miniatura del Proyecto" class="img1">
+                    <img src="media/gesti2.jpg" alt="Miniatura del Proyecto" class="img1">
+                    <img src="media/GEsti3.jpg" alt="Miniatura del Proyecto" class="img1">
+                </div>
+                <div class="proyecto-tarjeta">
+                    <a href="https://github.com/Valentfer/Registro" class="button">Registro</a>
+                    <p>La aplicación de registro de asistencia en Android realiza tres funciones principales:<br>
+                        <ul>
+                            <li><b>Autenticación de usuarios</b></li>
+                            <li><b>Registro de entrada y salida</b></li>
+                            <li><b>Visualización de datos de asistencia</b></li>
+                        </ul></p>
+                </div>
+
+                <div class="proyecto-tarjeta">
+                    <a href="https://github.com/Valentfer/AppFichar" class="button">AppFichar</a>
+                    <p>Esta App corresponde a la parte que recoge la información que envía la aplicación de <a href="https://github.com/Valentfer/Registro" style="color: white">Registro</a>.</p>
+                </div>
+            </ul>
+        </div>
+    </section>
+    <section id="contacto" class="section-move">
+        <h2>Contacto</h2>
+        <ul>
+            <li><a href="mailto:valenf57@gmail.com" style="color: white">E-mail</a></li>
+            <li><a href="https://github.com/Valentfer" style="color: white">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/vffer/" style="color: white">LinkedIn</a></li>
+        </ul>
+    </section>
+</main>
+<footer>
+    <p>&copy; 2024 Portfolio. Todos los derechos reservados.</p>
+</footer>
+</body>
+</html>
