@@ -7,11 +7,17 @@
 
 header {
   <!--  background-color: rgba(63, 63, 63, 0.66);-->
-    background-color: var(--color-principal);
+<!--background-color: var(--color-principal);-->
+    background-color: #09386a;
     color: var(--color-texto);
     <!--color: white;-->
     padding: 10px;
     text-align: center;
+
+    position: sticky;
+    top: 0;
+    border-bottom: 1px solid #ddd;
+    z-index: 1;
 }
 
 body {
