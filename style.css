@@ -6,11 +6,8 @@
 }
 
 header {
-  <!--  background-color: rgba(63, 63, 63, 0.66);-->
-<!--background-color: var(--color-principal);-->
-    background-color: #09386a;
+    background-color: rgb(12, 59, 110);
     color: var(--color-texto);
-    <!--color: white;-->
     padding: 10px;
     text-align: center;
 
@@ -27,7 +24,6 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-   <!-- background-color: #0c3b6e; /* Fondo oscuro */
     color: #ffffff; /* Texto blanco para contraste */-->
 }
 
