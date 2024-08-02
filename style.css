@@ -263,6 +263,29 @@ nav ul li a {
     }
 }
 
+@media (max-width: 480px) {
+    /* Estilos específicos para teléfonos móviles */
+    nav ul li {
+        display: block; /* Cambia la lista de navegación a una disposición vertical */
+        margin: 10px 0; /* Añade margen para separar los elementos de la lista */
+    }
+
+    .icon-container img {
+        width: 70px; /* Reduce el tamaño de los iconos en pantallas pequeñas */
+    }
+
+    body {
+        font-size: 0.9rem; /* Reduce el tamaño de la fuente en pantallas pequeñas */
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    /* Estilos específicos para tablets */
+    .proyecto-tarjeta {
+        flex-basis: 48%; /* Dos tarjetas por fila en tablets */
+    }
+}
+
 @keyframes slideFadeInFromLeft {
     from {
         opacity: 0;
