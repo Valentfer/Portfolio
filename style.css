@@ -115,12 +115,13 @@ ul, ol {
 .proyecto-tarjeta {
     border: 1px solid #ccc;
     border-radius: 10px;
-    margin: 20px;
-    margin-bottom: 30px;
+    margin: 20px 20px 30px;
     padding: 20px;
     width: calc(33.333% - 40px); /* Ajusta el ancho según sea necesario */
     float: left;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    /*box-sizing: border-box; /* Asegura que el padding y el borde se incluyan en el ancho total */
+    overflow: hidden; /* Evita que el contenido se desborde */
 }
 
 .proyecto-tarjeta img {
@@ -259,7 +260,9 @@ nav ul li a {
 
 @media (max-width: 768px) {
     .proyecto-tarjeta {
-        flex-basis: 100%; /* Cambia a una disposición de columna en pantallas pequeñas */
+        /*flex-basis: 100%;*/
+        width: 100%;
+        margin-bottom: 20px;
     }
 }
 
@@ -277,12 +280,19 @@ nav ul li a {
     body {
         font-size: 0.9rem; /* Reduce el tamaño de la fuente en pantallas pequeñas */
     }
+    .proyecto-tarjeta p {
+        font-size: 14px; /* Reduce el tamaño del texto dentro de las tarjetas */
+    }
+    .proyecto-tarjeta {
+        width: calc(50% - 20px);
+    }
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
     /* Estilos específicos para tablets */
     .proyecto-tarjeta {
-        flex-basis: 48%; /* Dos tarjetas por fila en tablets */
+        /*flex-basis: 48%; /* Dos tarjetas por fila en tablets */
+        width: calc(50% - 20px); /* Dos tarjetas por fila en tablets, con un pequeño margen */
     }
 }
 
